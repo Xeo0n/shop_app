@@ -1,0 +1,26 @@
+name: shop_app
+description: A refined Flutter shop application with local assets.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <=3.7.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  badges: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/apple.png
+    - assets/images/orange.png
+    - assets/images/banana.png
+    - assets/images/mango.png
